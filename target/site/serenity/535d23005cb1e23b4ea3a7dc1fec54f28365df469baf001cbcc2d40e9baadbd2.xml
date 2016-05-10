@@ -1,0 +1,23 @@
+<acceptance-test-run title="Should be able to navigate to racing page" name="Should be able to navigate to racing page" description="" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="12648" timestamp="2016-05-10T09:28:17.422+01:00" session-id="edb9e47b-3634-4261-aedb-b2cb34f54d84">
+  <user-story id="navigate-to-link" name="Navigate to link" path="src/test/resources/features/links/NavigateToLink.feature"/>
+  <tags>
+    <tag name="Links" type="capability"/>
+    <tag name="Links/Navigate to link" type="feature"/>
+    <tag name="sporting" type="tag"/>
+  </tags>
+  <test-group name="Given I am on the main page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="2023">
+      <description>Navigates to the website</description>
+    </test-step>
+  </test-group>
+  <test-group name="When I navigate to the &apos;Racing&apos; page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="5382">
+      <description>Navigates to page: &lt;span class=&apos;step-parameter&apos;&gt;Racing&lt;/span&gt;</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then I am able to view title &apos;Horse Racing Betting Tips | Racecards, Live Results &amp; News | Sporting Life&apos;" result="SUCCESS">
+    <test-step result="SUCCESS" duration="31">
+      <description>Is able to view correct title: &lt;span class=&apos;step-parameter&apos;&gt;Horse Racing Betting Tips | Racecards, Live Results &amp; News | Sporting Life&lt;/span&gt;</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>
